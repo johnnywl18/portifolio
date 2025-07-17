@@ -118,7 +118,6 @@ h1{
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.05);
 
-
 }
 
 .sobre-paragrafo{
@@ -140,8 +139,6 @@ h1{
     max-width: 1200px;
     margin: 0 auto;
 
-
-
 }
 
 .projetos-card{
@@ -152,8 +149,6 @@ h1{
     overflow: hidden;
     transition: all 0.5s ease;
     cursor: pointer;
-
-
 
 }
 
@@ -214,7 +209,6 @@ h1{
 
 }
 
-
 .campo-forme{
     width: 100%;
     padding: 1rem;
@@ -247,7 +241,6 @@ h1{
     transition: all 0.5 ease;
 }
 
-
 .botao-forme:hover{
     transform: translateY(-4px);
     box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4 );
@@ -277,10 +270,6 @@ h1{
 
 }
 
-
-
-
-
 .social-menu {
   display: flex;
   justify-content: center;
@@ -293,8 +282,6 @@ h1{
   width: 40px;
   height: 40px;
 }
-
-
 
 @media (max-width: 768px) {
   h1 {
@@ -374,5 +361,3 @@ h1{
     display: none;
   }
 }
-
-
