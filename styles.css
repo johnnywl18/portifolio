@@ -12,8 +12,8 @@ html{
 
 :root{
 
-     --primaria: #4f46e5;
-     --segundaria: #7c3aed;
+     --primaria: #4f4f4f;
+     --segundaria: #4f4f4f;
      --escuro: #0a0f1c;
      --claro:#e2e8f0;
      --vidro:rgba(255, 255, 255, 0.1);
@@ -27,7 +27,7 @@ body{
 
 .navegação{
     position:fixed;
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(15, 23, 42, 0.30);
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
@@ -56,7 +56,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, var(--primaria), var(--segundaria));
+    background: linear-gradient(90deg, var(--segundaria), var(--primaria));
     transition: width 0.5s ease;
 
 
@@ -68,7 +68,6 @@ width: 100%;
 }
 
 .cabeçalho{
-    /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
